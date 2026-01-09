@@ -7,7 +7,7 @@
 - The underlying infrastructure is supported by a global Content Delivery Network (CDN), which ensures that your website loads quickly for visitors around the world by serving content from a server geographically close to them.
 - Default domain is `username.github.io` but we can configure to use a custom domain.
 - The below is the brief description of difference between static and dynamic websites.
-![Static Vs Dynamic Websites](image.png)
+![Static Vs Dynamic Websites](doc-images/image.png)
 
 Github pages offers 2 ways to create static sites:
 - Type1: Creating Your User or Organization Site:
@@ -21,7 +21,7 @@ Github pages offers 2 ways to create static sites:
     - Each one gets its own sub-path URL, structured as `https://username.github.io/repository-name`.
     - You can create as many of these as you want, one for each project, portfolio piece, or experiment.
     - This option doesnt deploy a website automatically and needs to be configured to deploy manually as shown below:
-    ![Steps to configure and deploy Github Pages manually](image-1.png)
+    ![Steps to configure and deploy Github Pages manually](doc-images/image-1.png)
 
 - GitHub Pages has native, first-class support for Jekyll, a popular static site generator.
 - A static site generator is a tool that builds a complete static website from raw data and templates. It allows you to write content in a simple format like Markdown, manage reusable layout elements, and generate all the final HTML files with a single command.
