@@ -7,13 +7,14 @@ nav_order: 1          # First item in navigation
 <!-- YAML front matter is a block of metadata (key-value pairs) placed at the very top of Markdown files, enclosed by triple dashes (---) -->
 
 # Docker Learning Hub
-{: .fs-9 }                                              <!-- Jekyll styling (font size 9) -->
 
 Master Docker through hands-on practice
-{: .fs-6 .fw-300 }                                      <!-- Font size 6, weight 300 -->
 
-[Get Started](/fundamentals/){: .btn .btn-primary }      <!-- Styles link as a button -->
-[View on GitHub](https://github.com/manju838/docker-learning-hub){: .btn .fs-5 .mb-4 .mb-md-0 }
+- [Get Started]({% link fundamentals/index.md %}){: .btn .btn-primary }      <!-- Styles link as a button -->
+
+- [GitHub Pages Notes]({% link personal-notes/github-pages-notes.md %})
+
+- [View on GitHub](https://github.com/manju838/docker-learning-hub){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

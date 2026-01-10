@@ -1,4 +1,10 @@
-# Github-Pages-Notes
+---
+layout: page
+title: GitHub Pages Notes
+nav_order: 9
+---
+
+# GitHub Pages Notes
 
 - GitHub Pages is a static site hosting service offered by GitHub.
 - When you enable this feature on a repository, GitHub takes your HTML, CSS, and JavaScript files, runs them through a build process, and publishes them as a publicly accessible website.
@@ -41,8 +47,8 @@ To unpublish an already published site, you can change the settings as shown bel
 Additional Info:
 A basic Jekyll site has a specific folder structure. The `_config.yml` file contains global site settings. The `_posts` folder is where you put your blog posts, named with the format `YYYY-MM-DD-title.md`. The `_layouts` folder contains HTML templates that wrap your content. You can write your main pages, like `about.md` or `index.md`, in Markdown in the root directory. Jekyll uses a templating language called Liquid to insert content and logic into your layouts.
 
-
-While you can rely on GitHub to build your site, a best practice is to set up a local development environment. This allows you to preview changes instantly without having to commit and push for every minor adjustment. This typically involves installing Ruby and the Jekyll and Bundler gems. Once set up, you can run `bundle exec jekyll serve` in your project directory to build the site and run a local web server, usually at `http://localhost:4000`.
+## Installing Jekyll locally:
+While you can rely on GitHub to build your site, a best practice is to set up a local development environment. This allows you to preview changes instantly without having to commit and push for every minor adjustment. Guide and code snippets for doing this is available at `code-snippets/3.install-ruby-jekyll-local.md` file.
 
 
 |     Theme         |           Image                    |         Link                                         |                           |
