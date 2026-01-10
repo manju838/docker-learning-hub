@@ -1,0 +1,8 @@
+# Jekyll Configuration File
+title: Docker Learning Hub                           # Site title (appears in browser tab)
+description: Master Docker from basics to production # Site description
+theme: architect                                     # Theme to use
+url: https://manju838.github.io                      # Site URL
+baseurl: /docker-learning-hub                        # Your repository name
+search_enabled: true                                 # Enable search
+color_scheme: dark                                   # Color scheme (dark, light, auto)
